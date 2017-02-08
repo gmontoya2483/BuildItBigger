@@ -14,21 +14,13 @@ import android.view.ViewGroup;
 
 public class MainActivityFragment extends Fragment {
 
-
-
-    public MainActivityFragment() {
-
-
+  public MainActivityFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
-
-
-
-
 
         return root;
     }
